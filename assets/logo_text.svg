@@ -1,0 +1,27 @@
+<svg width="175" height="32" viewBox="0 0 175 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tejTextGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4D6BFE"/>
+      <stop offset="100%" stop-color="#00D2FF"/>
+    </linearGradient>
+    <linearGradient id="tejIconGrad" x1="2" y1="2" x2="26" y2="26" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4D6BFE"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#00D2FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Icon Emblem -->
+  <g transform="translate(2, 2)">
+    <path d="M2 4.5C2 3.67157 2.67157 3 3.5 3H20.5C21.3284 3 22 3.67157 22 4.5C22 5.32843 21.3284 6 20.5 6H14V21.5C14 22.3284 13.3284 23 12.5 23H11.5C10.6716 23 10 22.3284 10 21.5V6H3.5C2.67157 6 2 5.32843 2 4.5Z" fill="url(#tejIconGrad)"/>
+    <path d="M16 10L21 13.5L16 17L13.5 13.5L16 10Z" fill="#38BDF8"/>
+    <circle cx="17" cy="13.5" r="1.2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <text x="36" y="22" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5px">Tej</text>
+  <text x="76" y="22" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="url(#tejTextGrad)" letter-spacing="0.5px">AI</text>
+  
+  <!-- Subtle futuristic pulse line -->
+  <rect x="110" y="16" width="4" height="4" rx="2" fill="#38BDF8"/>
+</svg>
